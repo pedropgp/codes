@@ -1,0 +1,77 @@
+section {
+	border-style:none;
+	border-color: grey;
+	border-width:0.5px;
+	margin:1px;
+	padding:1px;
+	text-align: left;
+	resize: 200%
+}
+
+h1{
+	font-size: 100px;
+	margin-left: 37%;
+}
+
+p{
+	font-size: 60px;
+	margin-top: -15px;
+	margin-bottom: -10px;
+}
+
+p2{
+	font-size: 40px;
+	text-align: center;
+}
+
+p3{
+	font-size: 40px;
+	text-align: center;
+}
+
+section1 {
+	margin-top: 330px;
+	border-style: none;
+	border-color: grey;
+	border-width:0.5px;
+	margin:1px;
+	padding:1px;
+	text-align: center;
+	resize: 200%
+}
+
+.menu-item {
+	padding:35px;
+}
+
+.menu {
+    background-color: #999;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.menu img {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 6.5%;
+}
+
+/* Change the color of links on hover */
+.menu img:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.menu img.active {
+    background-color: #4CAF50;
+    color: white;
+}
