@@ -49,3 +49,10 @@ html {
 }
 
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+h1{
+  font-size: 40px;
+  text-align: center;
+  margin-top: 25px;
+}
+
