@@ -1,0 +1,94 @@
+html{
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+
+img{
+	display: block;
+	margin-top: 0.75rem;
+	margin-bottom: 0.75rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 7.5%;
+    height: auto;
+}
+
+h1 {
+	text-align: center;
+	font-size: 1.3rem;
+	font-family: Arvo;
+	margin-bottom: 1.25rem;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+a:link{
+	color: black;
+	text-decoration: none;
+}
+
+a:visited{
+	color: black;
+	text-decoration: none;
+}
+
+p {
+	font-family: Arvo;
+	font-size: 0.65rem;
+	text-align: left;
+	padding: 0.25rem;
+}
+
+.resultado {
+	margin: 1rem;
+}
+
+.foto {
+	border-radius: 0.5rem;
+	float: left;
+	width: 7rem;
+	height: 5rem;
+	margin-left: 0.5rem;
+	margin-top: 0.25rem;
+	margin-bottom: 0.25rem;
+}
+
+.infos {
+	margin-top: 0.55rem;
+	margin-bottom: 0.55rem;
+	margin-left: 8.5rem;
+}
+
+.back {
+	display: flex;
+	margin-left: 2.5rem;
+	width: 1.5rem;
+	height: 1.5rem;
+	border-style: none;
+	border-radius: 0rem;
+	color: black;
+	font-size: 2rem;
+}
+
+.mapa {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.resultado:before,
+.resultado:after {
+    content: " ";
+    display: table;
+}
+
+.resultado:after {
+    clear: both;
+}
+
+.resultado {
+    *zoom: 1;
